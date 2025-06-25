@@ -7,23 +7,6 @@ let time = 0;
 let end = 0;
 let a = [];
 
-// Function that makes further procedure possible, on clicking the first button
-
-document.getElementById("proceed").onclick = function() {
-    document.getElementById("des").style.display = "none";
-    document.getElementById("greet").style.display = "flex";
-    document.getElementById("click").style.display = "block";
-}
-
-// Function that makes further process possible, on clicking the second button
-
-document.getElementById("play").onclick = function() {
-    document.getElementById("greet").style.display = "none";
-    move();
-    i--;
-    document.getElementById("head").style.display = "none";
-}
-
 start = new Date().getTime();
 
 // Function that calculates and displays the reaction time
