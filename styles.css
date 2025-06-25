@@ -11,8 +11,8 @@ body {
 /* The moving box */
 
 #box {
-    height: 20vh;
-    width: 20vw;
+    height: 200px;
+    width: 200px;
     background-color: orange;
     border: 4px black solid;
     border-radius: 10px;
