@@ -48,76 +48,7 @@ body {
     border-radius: 3px;
 }
 
-/* The introduction */
-
-#des {
-    border: solid black 5px;
-    border-radius: 15px;
-    height: 60vh;
-    width: 50vw;
-    background-color: cornsilk;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    left: 25vw;
-    top: 25vh;
-    position: fixed;
-    flex-direction: column;
-}
-
-/* For all the buttons - a standard type of buttons in the webpage */
-
-button {
-    padding: 5px 10px;
-    background-color: lightgrey;
-    border-radius: 4px;
-    border: lightgrey solid 1px;
-}
-
-/* All the best Greeting */
-
-#greet {
-    font-weight: bolder;
-    display: none;
-    border: solid black 5px;
-    border-radius: 15px;
-    height: 50vh;
-    width: 50vw;
-    background-color: cornsilk;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    left: 25vw;
-    top: 25vh;
-    position: fixed;
-    flex-direction: column;
-    font-size: large;
-}
-
-#click {
-    display: none;
-}
-
-/* For suggestion */ 
-
-#suggestion {
-    border: 2px solid grey;
-    padding: 5px 10px;
-    border-radius: 6px;
-    background-color: rgba(211, 211, 211, 0.404);
-}
-
-/* For the instructions */
-
-#instructions {
-    font-size: large;
-    text-decoration: underline solid lightgrey;
-}
-
-/* For the name of the test displayed in the beginning */
+/* For the name of the test */
 
 #head {
     color: white;
@@ -126,17 +57,14 @@ button {
     align-items: center;
     justify-content: center;
     justify-items: center;
-    height: 100px;
+    height: 50px;
     width: 60vw;
     border: 5px white solid;
-    left: 20vw;
-    top: 50px;
     align-self: center;
     justify-self: center;
-    position: fixed;
     font-size: xx-large;
     font-weight: bold;
-    z-index: +1;
     border-radius: 20px;
     background-color: rgba(255, 234, 0, 0.182);
+    margin: 25px;
 }
